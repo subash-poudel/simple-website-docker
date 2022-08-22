@@ -1,0 +1,5 @@
+services:
+  frontend:
+    image: yeasy/simple-web:latest
+    ports:
+      - "3000:80"
